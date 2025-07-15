@@ -50,7 +50,7 @@ resource "aws_instance" "rag_ec2" {
               update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1
               
               cd /home/ubuntu
-              git clone https://github.com/mdhv11/legal-rag.git
+              git clone https://github.com/mdhv11/legal-rag-assistant.git
               cd legal-rag/app
               python3 -m venv venv
               source venv/bin/activate
