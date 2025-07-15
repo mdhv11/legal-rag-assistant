@@ -51,7 +51,7 @@ resource "aws_instance" "rag_ec2" {
               
               cd /home/ubuntu
               git clone https://github.com/mdhv11/legal-rag-assistant.git
-              cd legal-rag/app
+              cd legal-rag-assistant/app
               python3 -m venv venv
               source venv/bin/activate
               pip install --upgrade pip
